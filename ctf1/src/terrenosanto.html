@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flag - Cementerio Embrujado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background: url("img/camino.webp") no-repeat center center fixed;
+        background-size: cover;
+        color: #f5f5f5;
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 50px auto;
+        max-width: 600px;
+      }
+      img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+      }
+      h1 {
+        margin-bottom: 20px;
+        font-size: 5em;
+        font-weight: bold;
+        color: #509bcc;
+      }
+      p {
+        font-size: 1.2em;
+      }
+      .flag {
+        font-size: 1em;
+        color: #1e90ff;
+        font-weight: bold;
+        margin-top: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 5px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>¡Has Encontrado la Flag!</h1>
+      <p>
+        Felicitaciones, has encontrado la flag secreta del Cementerio Embrujado.
+        Upss, parece que la flag está encriptada. ¿Podrás ayudarnos?
+      </p>
+      <p class="flag">
+        iVBORw0KGgoAAAANSUhEUgAAAkEAAAA1CAYAAABGKD9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAxySURBVHhe7Z1rdqMwDIVnXVlQ1pPVZDNZTEYC0oC5MpIfFMr9ztGP6RBHkmXr8mr/vQkhhBBCLghFECGEEEIuCUUQIYQQQi4JRRAhhBBCLglFECGEEEIuCUUQIYQQQi4JRRAhhBBCLglFECGEEEIuCUUQIYQQQi4JRRAhhBBCLglFECFX4fV6P++39+3fv/e/ld3fz+kwQvbkeQf1eGc11oByenu8pv89K8/3PYlpNNnTpF5keysiKIJkE3083vcb2kjlZ7f7+/6IOlM55vOefCZvN/2e++P9LErYtq8P9XU6eovX45aMoXbQZvR6vh/3+5C/tc8a++19l7w+nnb8MN7bYyNfr/fjlnxGzL+gK+vr9TBEg2VTHUiBbXoYrN2l3d6hPU2+Kx8HRRD5HSiC2nMtEfQx6UEFZeMUQdKI5AwSf7Fh2giyOW80ZkUjUfXoYzyDRmNYNijT6dMWZxBBr6cKiNRHh4m4SePYVwQ1qq+wCJrbhlDZSwS5YqAIOj2onk4gJiiC2nN4EVRUq1siSC14cihsi6CaJmAF1XLMqkbiKIyXJ/GW5Sfk6CII++e1dRy7iaCW9VUlgtQyZyc7iSCcd5kf5+fJSaAIIhN/UwQlaG+uukswkhdBtQ0ABdV6zEoRlBcdNQLoY/b4RxZBdQJI7ZdEUOv6qhZBYlaMu4gglL9j1BhpzElFEGnPJUTQAOjRmz1lSUYE4eYzmpzdps9RyD+ej+S5g1VQHcaEjQQ0CPOKjtVM8r6mz3xkbxsZk3JcEWTnCj4/Iz/Q+Je3n35DBHWoLyiCUM1IDtKxsscL3tqton6TICeBIohMXEcEoT0/1kNtEQQ36OkLsrkUpz7N0CVY1FqP2aDpWL5mG4jdhNH8HlYEGbH7alQFkYqBXxBB1pzV1JdbBI3gOTVyF6nHYoAI8k0kORuonjjXl+Q6IgjFGuuhhgiKNXPE0AwWB/cYU4g0ksBZPfbV0aCs2yeg2R9VBIUaeQA4bjMR1Km+giIIH/9XRNB4xe8ugvGW5vrnrcst58erb/q23uLzYsMbhnq1bjoSgWropxaGNxiXbwF+3tRLeQ3PEyzHir012j6O77xMVygXOf7kdzpkhrVeLbOnvy6mbOOd5mb1cyGfC4PPVdycrzlnO1GagwUNYtvyY1X7xjqBVPjXrla/9BFBViMv3jyFHmMqkUaCjkVNuNJXVIDIJ1wQvy+CcE7VpMBloTiXygoYbysR1Ku+4LgZoWLkDrpxIhFk3+pDhmp42jjh8amNdYZANXSTTXdr7J83QbURGWJ5NP3u8VBMvzh0Xrbz7N1HbFvH1yYmq/HiOfuOYeUCI77OhMSWed7SbUlpDkbaxYb9kHWyMX7+jel6/+prdU0fERTZyL30GFNxNhI9g0WLHH6/4eu6aA2cseKCOIAIsgTFwvTMVM4eAmdcMN5WIqhXfQVFEBbAxpwaPnvMXYsNRBCOKWdpvLp5ouPyhtyMbqJzu+vvuQI/X5u1Bo8RR+pfXWNpF1NknHn9Qv9hjdpXe7O2uce0ozQHrWMrmdOP4b2ljX91tYpZxxrroVAEYUfrzlB7jDlQ3EiCZ2lingkZMEREWlz4e2IT2Ieygt+6nQDjbSSCutWXUwS99BKxdZZkFc4eIgj4765jwVoL6Vne+BzY5/+3m/Tw+dkAy89/bL0WLH9aG8rRkeKAc4jqCR74pWVMvUUQzpmsxdmmY53sRoV/KU1zUBEb9ENvVcl4PyOaV0W99VqR+4JaNVmNFdv3LyuCcs8vVPt6ehEkGDF4DF0GVWC8pxRBEcvMZ2HtqnlFUN1ZEriKJGZ/tz5rkHwHyp+x2aE5TA+15nmxuRs1o5YKdWvjXsW4Vxx6ZXU6RlEBsj7OmINoY2kcE2689j77AeZinTA4T9BdeGyDvcBBUQ46xIb8wOsWr/HFd/fIfbRWs9Rd7b7wlaDRdFNMXaj21SiatAjx9xxEBCnDA3Spf04D4gbG+5dFkP5CwmkYSEcRpA/+zh/CHC2Wj7L61A3pewwaw/TdsTG6x4Pzhn2Hjav0e5XCOKyN2+PfQLCxtI7J33iXeHIBjzH3Dt+e0YOSHPSILeLHVn11yX2wVjdB61183H5RgyJotGRCsa+G8kX8FRE0gd6k8Viar9hi+nBOEaQPIW5+Nazdcp/hZvaxgt8QvbU5esj65DHH2oSbe0AEwdpJ4twjDiu37mODjaV1TGg8q/HOKc5/NLbM8a0oyUGP2CJ+wPzP5raHf3LQ9jFRtk7ajfEv82C0Mjbz9NjRFn4YvnoW9IAzVlh8BxRBczSHz+f0mvTK98SSgLcWG6bizEKsur4KRdB2XEKgdj3AzUdMb0/GaXE2jccImUM8YJ/0itTyuHIRtE8c1ibtPhbVkzn37WOKNN45nviijRiO6VmTlZTkoEdsET+2xuuS+1CtxoDfnxkfiyBr469xsseYSrSRGH4sCqTSV1g0wCc8WccWQWsyDwQnhV8WL2pmYEH3qi847nIu8XyLbX33TiJosPCVIIqgLxRB0JKYIo13jie+Lo24AyU56BFbxI+t8brkvocIanolSNy1FojXzyERi4N7jCmEGwluqj5fHQ3KasZgAcJiOYAIUr+sh5sxRr48hb+VU49oHehUXw4RZNaUWPa7G4ugOS2eCYpufoiSppADrRk8XksRtE8cVm7dxwYbS+uYSscrzX80ttzxrSjJQY/YIn5s5b+Hf3LQ9jER0D4t/af4mSAFJmawrTPK2ZWBJKgeY8Jk5jZ7b1OF44oBMfMl1ohxPo4hggZfplcqtzHiToN2C5ovOEd4frvUl0sECVa95GoxWrsFrDckf33BfGbrX1Hx8f0OOAZaDE7QeLh+2oqgPeKwxnMfG2wsrWOKNN45xfk3axHvRx5fainJQY/Y/H5sj9cl98FazQPWemAsUwTBgX9sepVzHpf8Y/VbR1eOdBgz0EjM32Mgts6Z0dgHS1/JHcc2L8UZBQOL60gi6Mc+v7J/GbPmaLjiYMQdyWn6u0mGuXfeZvvSob68IkjA8ylm+buDCEL+r+fFwBCttjD+zO+shs0xpv83kbFk/tPNE+UYb+5tRdAecVgbt/tYVE/mWhEax9RTBIV8hcc2XlcGRTnoEJvbD894PXIfrdUcq7Fic50RQYIRvNtQllqPCRtJ0IqaqtfsCYGL32mezaWUGr9+DK4QocF8WUMPtK4v76IesEUezEdVLrwLHdRwNoFLrFpI335bngQsxQbakNVG4bsMIr2Nl9Y58gevhcYiSOgdhzUv7mON2s9dzW0ZU5EAELzxweN0HcziC/3Cvg40zUFFbNCP5Dj8SzDF9sh9Qa1arGONXUjIiyDFSpTHrMJrOWZ1U91oJrLwsw9bZS0/Ni4sn3kWVik1fg22oei7x92yvkIiSMiIsNVyqKrdjbr9oU4ESUCZK6KWpZtQyRijpfONagfXRHsR1DsOa15a+7f8aLuYeougYl9LrzAUUJqD1rEhP3xmCYjWuS+pVUx/EaQkZwAe079KmxV1rcasaSTuN2Yyt2YMG86kpk9bwMXvNN/CKmQQfiW+TbecpmFymGchpo23IN20qq+oCFLMmkw+dwoRNLLvH1D9mkc84LXQQwQp/eKoF0FCRoR/bP3RNjH1F0FKbC/27MMtKRdBSrvYikTQZj9snPuiWl2zjwj6MD1DoQ1y7bz8TJKol8dCRVc7ZrCR6J/6z/3JjDzqq172z/jqFAEKXPxO8y+sOl5PFROyQcKYv/mcXxaNoJdQVazc0FlB5dgDtfVVIoIEexOaLdATiaARyZPe9oLz5Z2r3Bhiw5zrnOB1hNYMXgu9RNCH9nE0EUGK1rzhl65X2aIM6mLaRwRNTOta40k/qz9bPf+3E3UiaKJBbNgPo3fpmLk9MKVl7nWsolr9sq8IIoScDCAGdrw9QAgh/UC31SiCCCE/1G8ShBByTOpP8iiCzkrVrRTbiu+UkMMCbzfIRlFzl5GQU8J98+9gvLQUvf1IEXRWuJiJF8cDiLw6RC4B980Tg57zS837rOQXiqCzwsVMIki95IUQRRC5ANw3T8yWCNIHvKdDA1AEEXIVPm9iwA2EIogQcmQsEaRvLZa/DUgRRAghhJBLQhFECCGEkEtCEUQIIYSQS0IRRAghhJBLQhFECCGEkEtCEUQIIYSQS0IRRAghhJBLQhFECCGEkEtCEUQIIYSQS0IRRAghhJBLQhFECCGEkEtCEUQIIYSQS0IRRAghhJBLQhFECCGEkAvyfv8HCpSz8THLDWEAAAAASUVORK5CYII=
+      </p>
+    </div>
+  </body>
+</html>

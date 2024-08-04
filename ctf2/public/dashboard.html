@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control CTF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Panel de Control CTF</h1>
+            <p id="bienvenida"></p>
+        </header>
+
+        <div id="contenidoUsuario" style="display: none;">
+            <h2>Panel de Usuario</h2>
+            <p>Bienvenido a tu panel de usuario. Aquí podrás ver tu progreso y los retos disponibles.</p>
+            
+            <section class="progreso">
+                <h3>Tu Progreso</h3>
+                <p>Retos completados: <span id="retosCompletados">0</span>/10</p>
+                <div class="barra-progreso">
+                    <div id="progresoRetos" style="width: 0%"></div>
+                </div>
+            </section>
+
+            <section class="retos">
+                <h3>Retos Disponibles</h3>
+                <ul id="listaRetos">
+                    <li>Reto 1: Descifra el mensaje oculto</li>
+                    <li>Reto 2: Encuentra la vulnerabilidad XSS</li>
+                    <li>Reto 3: Realiza un ataque de fuerza bruta</li>
+                </ul>
+            </section>
+
+            <section class="pistas">
+                <h3>Pistas</h3>
+                <p>Tienes <span id="pistaDisponibles">3</span> pistas disponibles.</p>
+                <button onclick="solicitarPista()">Solicitar Pista</button>
+                <p id="pista"></p>
+            </section>
+        </div>
+
+        <div id="contenidoAdmin" style="display: none;">
+            <h2>Panel de Administrador</h2>
+            <p>Bienvenido al panel de administrador. Aquí podrás gestionar el CTF y ver estadísticas.</p>
+
+            <section class="estadisticas">
+                <h3>Estadísticas Generales</h3>
+                <ul>
+                    <li>Usuarios registrados: <span id="usuariosRegistrados">42</span></li>
+                    <li>Retos completados (total): <span id="retosCompletadosTotal">15</span></li>
+                    <li>Usuarios que han completado todos los retos: <span id="usuariosCompletados">1</span></li>
+                </ul>
+            </section>
+
+            <section class="gestion-retos">
+                <h3>Gestión de Retos</h3>
+                <button onclick="agregarReto()">Agregar Nuevo Reto</button>
+                <button onclick="editarRetos()">Editar Retos Existentes</button>
+            </section>
+
+            <section class="bandera">
+                <h3>Bandera del Sistema</h3>
+                <button onclick="getFlag()">Obtener Bandera</button>
+                <p id="flag"></p>
+            </section>
+
+            <section class="logs">
+                <h3>Logs del Sistema</h3>
+                <textarea id="systemLogs" readonly>
+                    [2023-07-31 10:15:23] Usuario 'hacker123' completó el Reto 2
+                    [2023-07-31 11:30:45] Administrador 'admin' agregó un nuevo reto
+                    [2023-07-31 12:45:10] Usuario 'newbie' solicitó una pista para el Reto 1
+                </textarea>
+            </section>
+        </div>
+
+        <footer>
+            <button onclick="salir()">Cerrar Sesión</button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            getInfoUsuario();
+        });
+    </script>
+</body>
+</html>
