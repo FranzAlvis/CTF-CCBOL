@@ -1,8 +1,10 @@
+require('dotenv').config();
 const express = require("express");
 const sqlite3 = require("sqlite3");
 const fs = require("fs");
 
 const app = express();
+const BASE_URL = process.env.API_PREFIX || '/nodejs';
 const db = new sqlite3.Database(":memory:");
 
 const flag = fs.readFileSync("./flag.txt", { encoding: "utf8" }).trim();
@@ -22,7 +24,9 @@ db.serialize(() => {
   db.run(`INSERT INTO flag (flag) VALUES ('${flag}')`);
 });
 
-app.get("/crystals", (req, res) => {
+const router = express.Router();
+
+router.get("/crystals", (req, res) => {
   const { name } = req.query;
 
   if (!name) {
@@ -39,11 +43,14 @@ app.get("/crystals", (req, res) => {
   });
 });
 
-app.get("/", (req, res) => {
-  res.sendfile(__dirname + "/index.html");
+router.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
 });
 
-app.listen(3000, () => {
-  console.log("Server listening on port 3000");
-});
+app.use(BASE_URL, express.static('public'));
 
+app.use(BASE_URL, router);
+
+app.listen(process.env.PORT, () => {
+  console.log(`Server listening on port ${process.env.PORT}`);
+});
