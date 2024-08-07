@@ -7,10 +7,10 @@ const cookieParser = require('cookie-parser');
 
 const app = express();
 const SECRET_KEY = process.env.SECRET_KEY;
-const BASE_URL = '/nodejs';
+const BASE_URL = process.env.API_PREFIX || '/nodejs';
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(BASE_URL, express.static(path.join(__dirname, 'public')));
 app.use(cookieParser());
 
 const users = {
@@ -18,7 +18,6 @@ const users = {
   'admin': { password: 'adminpass', role: 'admin' }
 };
 
-// Ruta base para todas las rutas
 const router = express.Router();
 
 router.get('/', (req, res) => {
@@ -75,12 +74,10 @@ router.post('/salir', (req, res) => {
   res.json({ message: 'Sesión cerrada exitosamente' });
 });
 
-// Manejar rutas no encontradas
 router.use((req, res) => {
   res.status(404).sendFile(path.join(__dirname, 'public', '404.html'));
 });
 
-// Usar el router con el prefijo '/nodejs'
 app.use(BASE_URL, router);
 
 const PORT = process.env.PORT || 3000;
