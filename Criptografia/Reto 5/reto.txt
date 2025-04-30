@@ -1,0 +1,14 @@
+"El Código del Tríptico"
+
+Un antiguo artefacto ha sido descubierto en las ruinas de una civilización oriental perdida. 
+El artefacto consta de tres paneles, cada uno con un par de números grabados:
+Panel 1: 86812553978993 y 8875674977048
+Panel 2: 81744303091421 y 70744354709710
+Panel 3: 83695120256591 y 29146719498409
+
+ ¿Puedes descubrir el tesoro escondido?
+
+ By: DavS_21
+
+
+ CCBOL_SUCRE{h45t4d}

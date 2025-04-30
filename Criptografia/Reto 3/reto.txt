@@ -1,0 +1,28 @@
+El Enigma Cuántico de Schrödinger
+
+Has interceptado una transmisión de un laboratorio de física cuántica. 
+El mensaje parece estar cifrado utilizando una combinación de técnicas clásicas y cuánticas.
+¿Podrás descifrar nuestro enigma?
+
+Qk9YIENPTlRFTlRTOg==
+0x1A 0x7F 0x93 0x12 0x58 0x39 0x7E 0x45 0x14 0x8B 0x2F 0x16 0x9A 0x5D 0x03 0x81
+0x6C 0x27 0x4E 0xB0 0x8D 0x3F 0x71 0x52 0xA6 0x19 0xC4 0xE8 0x0F 0x95 0x6A 0xD7
+
+Clave pública RSA:
+n = 931935894721397
+e = 65537
+
+Mensaje firmado:
+s = 682434652418183
+
+Hash del mensaje original (SHA-256):
+7f5bb03c295c1f39c1a93cd5fb4f4ace5b3f57288ecac5836c336d154b76e9d5
+
+Secuencia cuántica:
+|ψ⟩ = 0.707|0⟩ + 0.707|1⟩
+|ϕ⟩ = 0.500|0⟩ + 0.866|1⟩
+
+By: DavS_21
+
+
+CCBOL_SUCRE{Qu4ntum_3n1gm4_Schr0d1ng3r_S0lv3d!}

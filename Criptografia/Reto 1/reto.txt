@@ -1,0 +1,12 @@
+Amigos CD
+
+Dos de mis amigos discutían sobre cuál era la mejor estación, pero la cifraron porque no querían que nadie la viera. Por suerte, reutilizaron la misma clave; ¿puedes recuperarla?
+
+0e0a620a1f0b12160a1d0b5b20003810360c0b2d61360c45073b15227d7d2b2b073863060e6f1a1a01140d1d
+07066201051114000d136536270f2b0d2565132d613e1a2f1c26612662642f261a320d63071c6c0b1c01021e083e28152b7f28047f3c133a122405311322
+
+By DavS_21
+
+
+
+CCBOL_SUCRE{fAn_dE_lAs_eStAc10neS}

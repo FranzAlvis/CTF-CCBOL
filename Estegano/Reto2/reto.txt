@@ -1,0 +1,9 @@
+"El Laberinto de Dédalo"
+
+Los susurros de la historia dicen que este laberinto contiene el secreto para escapar del Minotauro, pero está oculto en un patrón tan complejo como el propio laberinto.
+Sigue el sendero de izquierda a derecha, de arriba a abajo, como Teseo en el laberinto.
+El camino comienza donde el ojo no puede ver.
+
+By: DavS_22
+
+CCBOL_SUCRE{F1b0n4cc1_C0ll4tz_L4b3r1nth_M4st3r}

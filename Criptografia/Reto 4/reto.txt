@@ -1,0 +1,11 @@
+
+"Escalando"
+Descripción:
+"Gran Yacimiento de Bits Numerados. Quizás Una Roca Parece fácil. Escala con cuidado, los picos tienen mensajes ocultos. Alcanza la cima descifrando el código secreto."
+
+ojqzislof
+
+By: DavS_21
+
+
+CCBOL_SUCRE{fakeflag}

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Amatista",
+    "price": 10.00,
+    "quantity": 5
+  },
+  {
+    "name": "Citrino",
+    "price": 15.00,
+    "quantity": 3
+  },
+  {
+    "name": "Cuarzo Claro",
+    "price": 5.00,
+    "quantity": 10
+  },
+  {
+    "name": "Cuarzo Rosa",
+    "price": 20.00,
+    "quantity": 2
+  },
+  {
+    "name": "Obsidiana",
+    "price": 8.00,
+    "quantity": 4
+  },
+  {
+    "name": "Fluorita",
+    "price": 12.00,
+    "quantity": 6
+  },
+  {
+    "name": "Turquesa",
+    "price": 18.00,
+    "quantity": 1
+  },
+  {
+    "name": "Malaquita",
+    "price": 16.00,
+    "quantity": 4
+  },
+  {
+    "name": "Labradorita",
+    "price": 25.00,
+    "quantity": 2
+  },
+  {
+    "name": "Piedra de Luna",
+    "price": 14.00,
+    "quantity": 7
+  }
+]

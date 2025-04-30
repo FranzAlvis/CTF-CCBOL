@@ -1,0 +1,15 @@
+DH-400
+Los robots acaban de introducir este esquema indescifrable que les permite compartir secretos a través de canales inseguros, el DH-400. Sin embargo, estoy bastante segura de que esto no es nada nuevo, 
+por lo que aún deberíamos poder encontrar su secreto compartido.
+
+p = 500005
+g = 47
+
+A = 485178
+B = 131774
+
+Nota: No olvides el formato del secreto.
+
+By: DavS_21
+
+CCBOL_SUCRE{271624}

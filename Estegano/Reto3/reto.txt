@@ -1,0 +1,8 @@
+Mensaje Secreto
+
+El enemigo ha utilizado una compleja máquina de cifrado para ocultar su contenido. 
+Tu misión es descifrar el mensaje y descubrir la clave de la victoria.
+
+By: DavS_22
+
+CCBOL_SUCRE{dEcifrA_nUeSTR0_En1gmA}
