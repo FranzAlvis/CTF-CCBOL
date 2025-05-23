@@ -1,3 +1,3 @@
 Retos CTF-CCBOL
 
--- Incluye creaciíón y algunos con sus writeup
+-- Incluye creación y writeup de retos
